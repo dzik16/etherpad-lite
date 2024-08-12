@@ -130,10 +130,10 @@
               <input type="checkbox" id="options-chatandusers" onClick="chat.chatAndUsers();">
               <label for="options-chatandusers" data-l10n-id="pad.settings.chatandusers"></label>
           </p>
-          <p>
+          <!-- <p>
               <input type="checkbox" id="options-colorscheck">
               <label for="options-colorscheck" data-l10n-id="pad.settings.colorcheck"></label>
-          </p>
+          </p> -->
           <p>
               <input type="checkbox" id="options-linenoscheck" checked>
               <label for="options-linenoscheck" data-l10n-id="pad.settings.linenocheck"></label>
@@ -180,7 +180,9 @@
       <!------------------------->
 
       <div id="import_export" class="popup"><div class="popup-content">
+
           <h1 data-l10n-id="pad.importExport.import_export"></h1>
+
           <div class="acl-write">
               <% e.begin_block("importColumn"); %>
               <h2 data-l10n-id="pad.importExport.import"></h2>
@@ -201,6 +203,7 @@
               </form>
               <% e.end_block(); %>
           </div>
+
           <div id="exportColumn">
               <h2 data-l10n-id="pad.importExport.export"></h2>
               <% e.begin_block("exportColumn"); %>
@@ -224,6 +227,7 @@
               </a>
               <% e.end_block(); %>
           </div>
+
       </div></div>
 
 
